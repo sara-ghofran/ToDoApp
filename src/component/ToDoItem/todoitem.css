@@ -1,0 +1,45 @@
+.todo {
+margin-top: 20px;
+width: 100%;
+display: flex;
+justify-content: center;
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+border:inset 1px crimson;
+
+}
+.todoitem {
+    flex:10;
+    color: rgb(10, 4, 4);
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    
+}
+.trash-btn {
+    flex:1;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+    
+}
+.trash-btn:hover {
+    background-color: rgb(228, 70, 102);
+    
+}
+.check-btn {
+    flex:1;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+}
+.check-btn:hover {
+    background-color: rgb(228, 70, 102);
+    
+}
+.completed {
+    flex:10;
+    color: rgb(126, 122, 122);
+    font-family: 'Oswald', sans-serif;
+    text-decoration: line-through;
+    background-color: white;
+}

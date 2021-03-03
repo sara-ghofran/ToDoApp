@@ -1,0 +1,11 @@
+.output{
+    display: flex;
+    justify-content: center;
+
+}
+.todolist{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
